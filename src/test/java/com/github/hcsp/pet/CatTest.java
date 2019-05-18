@@ -11,7 +11,8 @@ public class CatTest {
     public void catCanSayItsName() {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         System.setOut(new PrintStream(baos, true));
-        Cat cat = new Cat("ABCDEF");
+        Cat cat = new Cat();
+        cat.name = "ABCDEF";
         cat.sayName();
         assertTrue(new String(baos.toByteArray()).toLowerCase().contains("abcdef"));
     }
