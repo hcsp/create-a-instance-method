@@ -1,7 +1,5 @@
 package com.github.hcsp.pet;
 
-import static org.hamcrest.Matchers.containsStringIgnoringCase;
-
 import com.github.blindpirate.extensions.CaptureSystemOutput;
 import org.junit.jupiter.api.Test;
 
