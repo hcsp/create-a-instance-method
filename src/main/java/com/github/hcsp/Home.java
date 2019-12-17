@@ -12,5 +12,4 @@ public class Home {
         white.name = "White";
         white.sayName();
     }
-
 }
