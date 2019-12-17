@@ -12,8 +12,5 @@ public class Home {
         white.name = "White";
         white.sayName();
     }
-    public String name;
-    public  void sayName(){
-        System.out.println(this.name);
-    }
+
 }
