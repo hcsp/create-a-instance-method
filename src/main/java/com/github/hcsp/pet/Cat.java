@@ -1,7 +1,5 @@
 package com.github.hcsp.pet;
 
-import java.sql.SQLOutput;
-
 public class Cat {
     public String name;
 
